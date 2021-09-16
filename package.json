@@ -1,6 +1,6 @@
 {
   "name": "emojicon-big",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Like Emojicon but bigger. 🚀",
   "keywords": [
     "emoji",
@@ -11,13 +11,16 @@
   "license": "Unlicense",
   "author": "Val (https://val.codejam.info)",
   "files": [
-    "index.js"
+    "index.js",
+    "auto.js"
   ],
   "repository": "valeriangalliat/emojicon-big",
   "scripts": {
+    "build:test": "browserify test-browserify.js > test-browserify-bundle.js",
     "lint": "standard --fix"
   },
   "devDependencies": {
+    "browserify": "^17.0.0",
     "standard": "^16.0.3"
   }
 }
