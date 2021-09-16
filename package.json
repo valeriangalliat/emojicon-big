@@ -1,0 +1,23 @@
+{
+  "name": "emojicon-big",
+  "version": "1.0.0",
+  "description": "Like Emojicon but bigger. 🚀",
+  "keywords": [
+    "emoji",
+    "favicon",
+    "emojicon",
+    "dynamic"
+  ],
+  "license": "Unlicense",
+  "author": "Val (https://val.codejam.info)",
+  "files": [
+    "index.js"
+  ],
+  "repository": "valeriangalliat/emojicon-big",
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
