@@ -1,4 +1,4 @@
-# emojicon-big
+# emojicon-big [![npm version](http://img.shields.io/npm/v/emojicon-big.svg?style=flat-square)](https://www.npmjs.org/package/emojicon-big)
 
 > Like [Emojicon] but bigger. 🚀
 
